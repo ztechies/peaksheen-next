@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import PeaskSheenBlueLogo from "../../../../public/images/logo/peaksheen-logo-blue-.svg"
-import XIcon from "../../../../public/images/social/x.svg"
-import FacebookIcon from "../../../../public/images/social/facebook.svg"
-import InstagramIcon from "../../../../public/images/social/instagram.svg"
+import PeaskSheenBlueLogo from "/public/images/logo/peaksheen-logo-blue-.svg"
+import XIcon from "/public/images/social/x.svg"
+import FacebookIcon from "/public/images/social/facebook.svg"
+import InstagramIcon from "/public/images/social/instagram.svg"
 
 const Footer = () => {
     const appName = process.env.NEXT_PUBLIC_APP_NAME ?? "PeakSheen"

@@ -13,8 +13,8 @@ import React, { useState } from "react"
 import { Spinner } from "react-bootstrap"
 import { useForm } from "react-hook-form"
 import toast from "react-hot-toast"
-import EyeClose from "../../../../public/images/Eye-close.svg"
-import EyeOpen from "../../../../public/images/Eye-open.svg"
+import EyeClose from "/public/images/Eye-close.svg"
+import EyeOpen from "/public/images/Eye-open.svg"
 
 const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail }) => {
     const router = useRouter()

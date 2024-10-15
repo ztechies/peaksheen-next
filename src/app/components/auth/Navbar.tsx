@@ -1,5 +1,5 @@
 import Image from "next/image"
-import PeaskSheenBlueLogo from "../../../../public/images/logo/peaksheen-logo-blue-.svg"
+import PeaskSheenBlueLogo from "/public/images/logo/peaksheen-logo-blue-.svg"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import { usePathname, useRouter } from "next/navigation"

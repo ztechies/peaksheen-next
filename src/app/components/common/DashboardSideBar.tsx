@@ -1,9 +1,9 @@
 "use client"
-import DashboardIcon from "../../../../public/images/admin-dashboard/dashboard.svg"
-import PaymentsIcon from "../../../../public/images/admin-dashboard/payments.png"
-import SupportIcon from "../../../../public/images/admin-dashboard/support.png"
-import NotificationsIcon from "../../../../public/images/admin-dashboard/notifications.svg"
-import PreferenceIcon from "../../../../public/images/admin-dashboard/preference.svg"
+import DashboardIcon from "/public/images/admin-dashboard/dashboard.svg"
+import PaymentsIcon from "/public/images/admin-dashboard/payments.png"
+import SupportIcon from "/public/images/admin-dashboard/support.png"
+import NotificationsIcon from "/public/images/admin-dashboard/notifications.svg"
+import PreferenceIcon from "/public/images/admin-dashboard/preference.svg"
 import SideBarMenuList from "./DashbaordSideBarMenuList"
 
 const Sidebar = () => {

@@ -8,11 +8,11 @@ import { FetchHelper } from "@/services/fetch-helper"
 import { getAccessToken } from "@/utils/common"
 import CommonPageHeader from "../../components/common/CommonPageHeader"
 import ServiceStepsSection from "../../components/home/service-steps"
-import availbilityIcon from "../../../../public/images/join-our-team/icons/availability.svg"
-import verificationIcon from "../../../../public/images/join-our-team/icons/verification.svg"
-import searchJobIcon from "../../../../public/images/join-our-team/icons/search-job.svg"
+import availbilityIcon from "/public/images/join-our-team/icons/availability.svg"
+import verificationIcon from "/public/images/join-our-team/icons/verification.svg"
+import searchJobIcon from "/public/images/join-our-team/icons/search-job.svg"
 import SetAvailbilitySection from "../../components/join-our-team/set-availbility-section"
-import JoinOurTeamImage from "../../../../public/images/join-our-team/join-our-team.png"
+import JoinOurTeamImage from "/public/images/join-our-team/join-our-team.png"
 
 export default function JoinOurTeam() {
     const [user, setUser] = useState<User>()
