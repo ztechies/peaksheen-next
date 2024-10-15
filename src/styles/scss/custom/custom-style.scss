@@ -1,0 +1,182 @@
+.text-color {
+    color: #13517b;
+}
+
+.list-icon-color {
+    color: #99d1e5;
+}
+
+.custom-btn-2 {
+    white-space: nowrap;
+    background-color: #13517b;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    border: 1px solid #13517b;
+}
+
+.custom-btn {
+    white-space: nowrap;
+    background-color: #99d1e5;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: #13517b;
+    font-size: larger;
+    border: 1px solid #13517b;
+}
+
+.opacity-80 {
+    opacity: 0.8 !important;
+}
+
+.bg-opacity-10 {
+    --tw-bg-opacity: 0.75;
+}
+
+.text-lg {
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+}
+
+.bg-color-opacity {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.about-bg {
+    background-color: #124f72;
+}
+
+.application-form {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 242, 242);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 37px;
+    overflow: hidden;
+
+    .title {
+        color: white;
+    }
+
+    .highlight {
+        background-color: white;
+        opacity: 0.8;
+        color: $theme-accent-green;
+    }
+
+    .description {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ul li {
+        margin-bottom: 12px;
+        margin-left: -10px;
+        display: flex;
+        align-items: center;
+        font-family: "Poppins-Regular";
+        color: white;
+    }
+
+    ul li::before {
+        color: transparent;
+        font-size: 1px;
+        content: " ";
+        margin-left: -1.3em;
+        margin-right: 15px;
+        padding: 10px;
+        background-color: white;
+        -webkit-mask-image: url("/images/contact-us/icons/list-icon.svg");
+        -webkit-mask-size: cover;
+    }
+
+    .form {
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 25px;
+        overflow-y: auto;
+        border: 1px solid gray;
+
+        .form-control,
+        .form-select {
+            background-color: $theme-light-grey;
+            border-radius: 10px;
+            border: 1px solid $theme-grey-background;
+            font-family: "Poppins-Regular";
+            color: $theme-light-grey-text;
+
+            &:focus {
+                box-shadow: none;
+                border: 1px solid $theme-grey-background;
+            }
+        }
+
+        .form-label {
+            color: $theme-light-grey-text;
+            font-family: "Poppins-Regular";
+            font-weight: 500;
+        }
+
+        .form-control::placeholder {
+            color: $theme-light-grey-text;
+            font-family: "Poppins-Regular";
+        }
+    }
+}
+
+.bg-color-sectionOne {
+    background-color: #f3f4f6;
+}
+
+.bg-color-sectionTwo {
+    background-color: #e5e7eb;
+}
+
+.common-header-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.common-header-section .container {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.common-header-title,
+.common-header-description {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .common-header-section {
+        min-height: 50vh;
+    }
+}

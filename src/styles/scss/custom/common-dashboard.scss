@@ -1,0 +1,148 @@
+@import "./variables.scss";
+.sidebar {
+    box-shadow: 5px 4px 16px 0px #00000012;
+    background: #f9f9f9;
+    height: 100vh;
+    ul {
+        list-style: none;
+    }
+    .navItem {
+        padding: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        font-family: "Poppins-Regular";
+
+        .navIcon {
+            margin: 10px;
+        }
+        &:hover {
+            box-shadow: 0px 4px 10px 0px #00000017;
+            border-radius: 3px 12px 12px 3px;
+            color: $theme-accent-green;
+        }
+        &.active {
+            box-shadow: 0px 4px 10px 0px #00000017; /* Add left shadow */
+            color: $theme-accent-green;
+            font-weight: bolder;
+            border-left: 10px solid $theme-accent-green;
+            border-radius: 3px 12px 12px 3px;
+        }
+    }
+}
+.navbar {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.profile {
+    font-family: "Poppins-Regular";
+    cursor: pointer;
+    .email {
+        max-width: 150px;
+        color: $theme-light-grey-text;
+    }
+    .name {
+        font-weight: 900;
+    }
+}
+.badge {
+    position: relative;
+    top: -14px;
+    left: -18px;
+    border: 1px solid $theme-light-grey;
+    border-radius: 50% !important;
+    background-color: white !important;
+    color: #000 !important;
+    font-size: 14px !important;
+    font-family: "Poppins-Regular";
+    padding: 3px !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.breadcrumb-item {
+    padding-left: 0rem !important;
+    &::before {
+        padding-right: 0rem !important;
+    }
+    a {
+        font-family: "Poppins-Regular";
+        text-decoration: none;
+        color: $theme-light-grey-text;
+        font-size: 18px;
+    }
+}
+
+.custom-card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 22.15px;
+    box-shadow: 5px 0px 10px 2px #0000000f;
+}
+.horizontal-bars {
+    height: 360px;
+    .service-bar-container {
+        align-items: center;
+
+        .service-label {
+            font-size: 14px;
+            color: #333;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .bar-background {
+            flex: 3;
+            height: 8px;
+            border-radius: 5px;
+            background-color: #e0e0e0;
+            position: relative;
+            overflow: hidden;
+            width: 450px;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 5px;
+            background-color: #00c853;
+            transition: width 0.3s ease;
+        }
+
+        .value-label {
+            flex: 1;
+            text-align: right;
+            font-size: 14px;
+            color: #666;
+            margin-left: 10px;
+            top: -15px !important;
+            position: relative;
+        }
+    }
+}
+.table {
+    th {
+        font-family: "Poppins-SemiBold";
+        color: #000;
+        background: #f7f7f7 !important;
+        border-bottom-color: $theme-light-grey !important;
+        border-right: 1px solid $theme-light-grey !important;
+        text-align: center;
+    }
+    th:first-child {
+        border-radius: 25px 0 0 0;
+    }
+    th:last-child {
+        border-radius: 0 25px 0 0;
+        border-right: 0 !important;
+    }
+    td {
+        text-align: center;
+        font-family: "Poppins-Regular";
+        color: $theme-light-grey-text;
+        border: 1px solid $theme-light-grey;
+    }
+    .header-no-wrap {
+        margin-left: 10px;
+    }
+}
