@@ -2,7 +2,7 @@
 
 import React from "react"
 import { NextPage } from "next"
-import ServerErrorImage from "/public/images/500.svg"
+import ServerErrorImage from "@/public/images/500.svg"
 
 const ServerErrorPage: NextPage = () => {
     return (

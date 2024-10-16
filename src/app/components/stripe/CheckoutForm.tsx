@@ -5,7 +5,7 @@ import { useStripe, useElements, PaymentElement } from "@stripe/react-stripe-js"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Image from "next/image"
-import PrePaymentInfoImage from "/public/images/booking/pre-payment.png"
+import PrePaymentInfoImage from "@/public/images/booking/pre-payment.png"
 import { useParams } from "next/navigation"
 import toast from "react-hot-toast"
 

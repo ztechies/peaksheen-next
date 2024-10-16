@@ -2,8 +2,8 @@
 import { InputFieldProps } from "@/types/components/text-input"
 import Image from "next/image"
 import { forwardRef, useState } from "react"
-import EyeClose from "/public/images/Eye-close.svg"
-import Eye from "/public/images/Eye-open.svg"
+import EyeClose from "@/public/images/Eye-close.svg"
+import Eye from "@/public/images/Eye-open.svg"
 import ShowFormError from "../common/ShowFormError"
 
 /**

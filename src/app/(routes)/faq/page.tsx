@@ -7,7 +7,7 @@ import CustomLayout from "../../components/common/CustomLayout"
 import { FetchHelper } from "@/services/fetch-helper"
 import { getAccessToken } from "@/utils/common"
 import CommonPageHeader from "../../components/common/CommonPageHeader"
-import FaqImage from "/public/images/faq/faq.png"
+import FaqImage from "@/public/images/faq/faq.png"
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
 

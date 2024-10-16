@@ -1,6 +1,6 @@
 import React from "react"
 import { NextPage } from "next"
-import ErrorImage from "/public/images/404.svg"
+import ErrorImage from "@/public/images/404.svg"
 import Link from "next/link"
 
 const NotFoundPage: NextPage = () => {
