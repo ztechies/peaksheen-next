@@ -215,7 +215,7 @@ const Dashboard = () => {
                 <div className="grey-text">
                     <Image
                         className="cursor-pointer me-3"
-                        src={"/images/admin-dashboard/home.svg"}
+                        src={"/Images/admin-dashboard/home.svg"}
                         alt="Home"
                         width={25}
                         height={25}
@@ -274,7 +274,7 @@ const Dashboard = () => {
                 <div className="grey-text">
                     <Image
                         className="cursor-pointer me-3"
-                        src={"/images/admin-dashboard/booking-icon.sv"}
+                        src={"/Images/admin-dashboard/booking-icon.sv"}
                         alt="Booking"
                         width={25}
                         height={25}

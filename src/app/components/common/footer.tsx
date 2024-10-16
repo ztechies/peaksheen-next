@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="col-md-3 mb-4 mb-md-0">
                         <div className="footer-logo">
                             <Image
-                                src={"/images/logo/peaksheen-logo-blue-.svg"}
+                                src={"/Images/logo/peaksheen-logo-blue-.svg"}
                                 alt={appName}
                                 width={200}
                                 height={70}
@@ -80,21 +80,21 @@ const Footer = () => {
                         <div className="">
                             <Image
                                 className="cursor-pointer me-3"
-                                src={"/images/social/x.svg"}
+                                src={"/Images/social/x.svg"}
                                 alt="x"
                                 width={25}
                                 height={25}
                             />
                             <Image
                                 className="cursor-pointer me-3"
-                                src={"/images/social/facebook.svg"}
+                                src={"/Images/social/facebook.svg"}
                                 alt="Facebook"
                                 width={25}
                                 height={25}
                             />
                             <Image
                                 className="cursor-pointer me-3"
-                                src={"/images/social/instagram.svg"}
+                                src={"/Images/social/instagram.svg"}
                                 alt="Instagram"
                                 width={25}
                                 height={25}

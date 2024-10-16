@@ -35,19 +35,19 @@ export default function Home() {
 
     const steps = [
         {
-            icon: "/images/home/icons/cleaning-person.svg", // Updated path
+            icon: "/Images/home/icons/cleaning-person.svg", // Updated path
             title: "Choose Frequency",
             description: "Ad-hoc, Weekly,\nFortnightly",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: "/images/home/icons/clock.svg", // Updated path
+            icon: "/Images/home/icons/clock.svg", // Updated path
             title: "Select Duration",
             description: "Length of the\ncleaning session",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: "/images/home/icons/calendar.svg", // Updated path
+            icon: "/Images/home/icons/calendar.svg", // Updated path
             title: "Cleaning Time",
             description: "At your chosen\ntime & place",
             colSize: "col-md-4 col-lg-4 col-sm-12",
@@ -66,12 +66,12 @@ export default function Home() {
                 <SectionRight
                     title="Trusted Cleaning Services"
                     description="Local, experienced, DBS-checked, and vetted."
-                    icon="/images/home/icons/trust-sheild.svg" // Updated path
+                    icon="/Images/home/icons/trust-sheild.svg" // Updated path
                     iconAlt="Shield Icon"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Book your cleaning"
-                    image="/images/home/cleaning-variant-2.png" // Updated path
+                    image="/Images/home/cleaning-variant-2.png" // Updated path
                     imageAlt="Cleaning Service"
                     buttonHandleClick={handleClick}
                 />
@@ -79,12 +79,12 @@ export default function Home() {
                 <SectionLeft
                     title="We serve all Greater<br/>Machester Area"
                     description="Our local expertise guarantees a service that truly meets your needs."
-                    icon="/images/home/icons/area-locator.svg" // Updated path
+                    icon="/Images/home/icons/area-locator.svg" // Updated path
                     iconAlt="Area locator"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Book your cleaning"
-                    image="/images/home/service-area.png" // Updated path
+                    image="/Images/home/service-area.png" // Updated path
                     imageAlt="Cleaning Service Area"
                     buttonHandleClick={handleClick}
                 />

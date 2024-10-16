@@ -37,7 +37,7 @@ const SetAvailbilitySection = () => {
                         <div className="availability-content">
                             <div className="availability-icon">
                                 <Image
-                                    src="/images/join-our-team/icons/schedule-service-time.svg" // Updated path
+                                    src="/Images/join-our-team/icons/schedule-service-time.svg" // Updated path
                                     alt="Availability Icon"
                                     width={90}
                                     height={90}
@@ -101,24 +101,24 @@ const SetAvailbilitySection = () => {
                 <SectionLeft
                     title="Accept the jobs that work<br />for you"
                     description="Local, experienced, DBS-checked, and vetted."
-                    icon="/images/join-our-team/icons/user-forms.svg" // Updated path
+                    icon="/Images/join-our-team/icons/user-forms.svg" // Updated path
                     iconAlt="Shield Icon"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Apply now"
-                    image="/images/join-our-team/orders-history.png" // Updated path
+                    image="/Images/join-our-team/orders-history.png" // Updated path
                     imageAlt="Orders History"
                     buttonHandleClick={handleClick}
                 />
                 <SectionRight
                     title="Trusted Cleaning Services"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                    icon="/images/join-our-team/icons/star.svg" // Updated path
+                    icon="/Images/join-our-team/icons/star.svg" // Updated path
                     iconAlt="Shield Icon"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Start now"
-                    image="/images/join-our-team/cleaning-rating.png" // Updated path
+                    image="/Images/join-our-team/cleaning-rating.png" // Updated path
                     imageAlt="Cleaning Service"
                     buttonHandleClick={handleClick}
                 />

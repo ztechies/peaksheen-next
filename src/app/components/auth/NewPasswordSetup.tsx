@@ -111,8 +111,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showPassword
-                                                                        ? "/images/Eye-close.svg"
-                                                                        : "/images/Eye-close.svg"
+                                                                        ? "/Images/Eye-close.svg"
+                                                                        : "/Images/Eye-close.svg"
                                                                 }
                                                                 width={20}
                                                                 height={20}
@@ -163,8 +163,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showConfirmPassword
-                                                                        ? "/images/Eye-close.svg"
-                                                                        : "/images/Eye-close.svg"
+                                                                        ? "/Images/Eye-close.svg"
+                                                                        : "/Images/Eye-close.svg"
                                                                 }
                                                                 width={20}
                                                                 height={20}

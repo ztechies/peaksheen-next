@@ -158,7 +158,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
                                 <Col className="px-0">
                                     <div className="position-relative">
                                         <Image
-                                            src={"/images/booking/pre-payment.png"}
+                                            src={"/Images/booking/pre-payment.png"}
                                             alt="Image"
                                             className="img-fluid w-100"
                                         />

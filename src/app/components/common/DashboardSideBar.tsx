@@ -4,22 +4,22 @@ import SideBarMenuList from "./DashbaordSideBarMenuList"
 const Sidebar = () => {
     const menu = [
         {
-            icon: "/images/admin-dashboard/dashboard.svg",
+            icon: "/Images/admin-dashboard/dashboard.svg",
             name: "Dashboard",
             id: 1,
             path: "/dashboard",
             isactive: "active",
         }, // Updated path
-        { icon: "/images/admin-dashboard/payments.png", name: "Payments", id: 2, isactive: "" }, // Updated path
-        { icon: "/images/admin-dashboard/support.png", name: "Support", id: 3, isactive: "" }, // Updated path
+        { icon: "/Images/admin-dashboard/payments.png", name: "Payments", id: 2, isactive: "" }, // Updated path
+        { icon: "/Images/admin-dashboard/support.png", name: "Support", id: 3, isactive: "" }, // Updated path
         {
-            icon: "/images/admin-dashboard/notifications.svg",
+            icon: "/Images/admin-dashboard/notifications.svg",
             name: "Notifications",
             id: 4,
             isactive: "",
         }, // Updated path
         {
-            icon: "/images/admin-dashboard/preference.svg",
+            icon: "/Images/admin-dashboard/preference.svg",
             name: "Preferences",
             id: 5,
             isactive: "",

@@ -20,7 +20,7 @@ ContentSecurityPolicy +=
 
 // Allow scripts from the same origin, inline scripts, eval, and specified trusted sources.
 ContentSecurityPolicy +=
-    "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.stripe.com/ https://cdn.jsdelivr.net/ https://www.facebook.com https://connect.facebook.net https://storage.googleapis.com https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://images.dmca.com https://embed.tawk.to/ https://assets.calendly.com/; "
+    "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://js.stripe.com/ https://cdn.jsdelivr.net/ https://www.facebook.com https://connect.facebook.net https://storage.googleapis.com https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://Images.dmca.com https://embed.tawk.to/ https://assets.calendly.com/; "
 
 // Explicitly deny the use of object-src (e.g., plugins).
 ContentSecurityPolicy += "object-src 'none'; "

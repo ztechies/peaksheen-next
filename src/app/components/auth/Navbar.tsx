@@ -29,7 +29,7 @@ const Navbars = (props: { user?: User }) => {
                 <Navbar.Brand href="/" className="ms-2">
                     <Image
                         className="company-logo me-md-5 me-lg-5"
-                        src={"/images/logo/peaksheen-logo-blue-.svg"}
+                        src={"/Images/logo/peaksheen-logo-blue-.svg"}
                         alt={appName}
                         width={300}
                         height={300}

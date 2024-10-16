@@ -8,7 +8,7 @@ const ServerErrorPage: NextPage = () => {
         <section className="v-error-section v-section-padding">
             <div className="v-error-content">
                 <div className="v-error-image">
-                    <img src={"/images/500.svg"} alt="500 image" />
+                    <img src={"/Images/500.svg"} alt="500 image" />
                 </div>
                 <div className="v-text-body">
                     <h1>Internal server error</h1>

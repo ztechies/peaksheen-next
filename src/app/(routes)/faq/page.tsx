@@ -70,7 +70,7 @@ export default function Faq() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image={"/images/faq/faq.png"}
+                image={"/Images/faq/faq.png"}
                 imageAlt="FAQ"
             />
 

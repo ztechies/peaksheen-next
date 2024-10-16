@@ -31,19 +31,19 @@ export default function HowItWorks() {
 
     const steps = [
         {
-            icon: "/images/home/icons/cleaning-person.svg", // Updated path
+            icon: "/Images/home/icons/cleaning-person.svg", // Updated path
             title: "Choose Frequency",
             description: "Ad-hoc, Weekly,\nFortnightly",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: "/images/home/icons/clock.svg", // Updated path
+            icon: "/Images/home/icons/clock.svg", // Updated path
             title: "Select Duration",
             description: "Length of the\ncleaning session",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: "/images/home/icons/calendar.svg", // Updated path
+            icon: "/Images/home/icons/calendar.svg", // Updated path
             title: "Cleaning Time",
             description: "At your chosen\ntime & place",
             colSize: "col-md-4 col-lg-4 col-sm-12",
@@ -67,7 +67,7 @@ export default function HowItWorks() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image="/images/how-it-works/cleaner-animation.png" // Updated path
+                image="/Images/how-it-works/cleaner-animation.png" // Updated path
                 imageAlt="How it works"
             />
             <ServiceStepsSection steps={steps} />
@@ -76,12 +76,12 @@ export default function HowItWorks() {
                     title="Set Frequency"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon="/images/how-it-works/icons/reports.svg" // Updated path
+                    icon="/Images/how-it-works/icons/reports.svg" // Updated path
                     iconAlt="Reports Icon"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Create a job"
-                    image="/images/how-it-works/person-cleaning-railing.png" // Updated path
+                    image="/Images/how-it-works/person-cleaning-railing.png" // Updated path
                     imageAlt="Cleaning Service"
                     buttonHandleClick={handleClick}
                 />
@@ -90,12 +90,12 @@ export default function HowItWorks() {
                     title="Select Duration"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon="/images/how-it-works/icons/hour-glass.svg" // Updated path
+                    icon="/Images/how-it-works/icons/hour-glass.svg" // Updated path
                     iconAlt="Timely cleaning"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Reliable Cleaning"
-                    image="/images/how-it-works/cleaning-time.png" // Updated path
+                    image="/Images/how-it-works/cleaning-time.png" // Updated path
                     imageAlt="Reliable Cleaning"
                     buttonHandleClick={handleClick}
                 />
@@ -103,12 +103,12 @@ export default function HowItWorks() {
                     title="Cleaning time"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon="/images/how-it-works/icons/stopwatch.svg" // Updated path
+                    icon="/Images/how-it-works/icons/stopwatch.svg" // Updated path
                     iconAlt="Cleaning time"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Create a job"
-                    image="/images/how-it-works/cleaning-hand.png" // Updated path
+                    image="/Images/how-it-works/cleaning-hand.png" // Updated path
                     imageAlt="Cleaning on time"
                     buttonHandleClick={handleClick}
                 />
