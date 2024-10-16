@@ -1,7 +1,6 @@
 import React, { MouseEventHandler } from "react"
 import Image from "next/image"
 
-
 /**
  * Custom component renders the div with image being right side and content on left which can be resued 
  
@@ -36,7 +35,13 @@ const SectionLeft = ({
     return (
         <div className="row mb-3 section-left-content">
             <div className="col-md-6 descriptive-image">
-                <Image src={image} alt={imageAlt} className="img-fluid rounded" width={500} height={500} />
+                <Image
+                    src={image}
+                    alt={imageAlt}
+                    className="img-fluid rounded"
+                    width={500}
+                    height={500}
+                />
             </div>
             <div className="col-md-6 content">
                 <div className="ms-md-2 ms-lg-4 ms-sm-2">

@@ -51,9 +51,19 @@ const TextInputField = forwardRef<HTMLInputElement, InputFieldProps>(
                             }
                         >
                             {inputType === "password" ? (
-                                <Image src={'/images/Eye-close.svg'} alt="eye icon" width={20} height={20} />
+                                <Image
+                                    src={"/images/Eye-close.svg"}
+                                    alt="eye icon"
+                                    width={20}
+                                    height={20}
+                                />
                             ) : (
-                                <Image src={'/images/Eye-open.svg'} alt="eye close icon" width={20} height={20} />
+                                <Image
+                                    src={"/images/Eye-open.svg"}
+                                    alt="eye close icon"
+                                    width={20}
+                                    height={20}
+                                />
                             )}
                         </button>
                     )}

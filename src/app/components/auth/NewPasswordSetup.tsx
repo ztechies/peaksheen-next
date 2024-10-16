@@ -111,8 +111,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showPassword
-                                                                        ? '/images/Eye-close.svg'
-                                                                        : '/images/Eye-close.svg'
+                                                                        ? "/images/Eye-close.svg"
+                                                                        : "/images/Eye-close.svg"
                                                                 }
                                                                 width={20}
                                                                 height={20}
@@ -163,8 +163,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showConfirmPassword
-                                                                        ? '/images/Eye-close.svg'
-                                                                        : '/images/Eye-close.svg'
+                                                                        ? "/images/Eye-close.svg"
+                                                                        : "/images/Eye-close.svg"
                                                                 }
                                                                 width={20}
                                                                 height={20}
@@ -174,7 +174,7 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                     </div>
                                                 </div>
                                                 {errors.confirmPassword &&
-                                                    errors.confirmPassword.message ? (
+                                                errors.confirmPassword.message ? (
                                                     <span className="text-danger">
                                                         {errors.confirmPassword.message}
                                                     </span>

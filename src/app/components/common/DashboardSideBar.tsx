@@ -3,11 +3,27 @@ import SideBarMenuList from "./DashbaordSideBarMenuList"
 
 const Sidebar = () => {
     const menu = [
-        { icon: "/images/admin-dashboard/dashboard.svg", name: "Dashboard", id: 1, path: "/dashboard", isactive: "active" }, // Updated path
+        {
+            icon: "/images/admin-dashboard/dashboard.svg",
+            name: "Dashboard",
+            id: 1,
+            path: "/dashboard",
+            isactive: "active",
+        }, // Updated path
         { icon: "/images/admin-dashboard/payments.png", name: "Payments", id: 2, isactive: "" }, // Updated path
         { icon: "/images/admin-dashboard/support.png", name: "Support", id: 3, isactive: "" }, // Updated path
-        { icon: "/images/admin-dashboard/notifications.svg", name: "Notifications", id: 4, isactive: "" }, // Updated path
-        { icon: "/images/admin-dashboard/preference.svg", name: "Preferences", id: 5, isactive: "" }, // Updated path
+        {
+            icon: "/images/admin-dashboard/notifications.svg",
+            name: "Notifications",
+            id: 4,
+            isactive: "",
+        }, // Updated path
+        {
+            icon: "/images/admin-dashboard/preference.svg",
+            name: "Preferences",
+            id: 5,
+            isactive: "",
+        }, // Updated path
     ]
 
     // const [active, setActive] = useState(1)

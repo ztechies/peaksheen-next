@@ -224,21 +224,21 @@ export default function SignIn() {
                                     <div className="text-center">
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={'/images/google-login.svg'}
+                                            src={"/images/google-login.svg"}
                                             alt="Google-Sign-In"
                                             width={50}
                                             height={50}
                                         />
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={'/images/facebook-login.svg'}
+                                            src={"/images/facebook-login.svg"}
                                             alt="Facebook-Sign-In"
                                             width={50}
                                             height={50}
                                         />
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={'/images/apple-login.svg'}
+                                            src={"/images/apple-login.svg"}
                                             alt="Apple-Sign-In"
                                             width={50}
                                             height={50}

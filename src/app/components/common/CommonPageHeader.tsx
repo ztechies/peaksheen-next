@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "next/image"
 
-
 /**
  * Custom component renders the header which can be resued
  
@@ -36,7 +35,13 @@ const CommonPageHeader: React.FC<CommonPageHeaderProps> = ({
                         <p className="common-header-description">{description}</p>
                     </div>
                     <div className="col-lg-6 text-center">
-                        <Image src={image} alt={imageAlt} className="common-header-image" width={300} height={300}  />
+                        <Image
+                            src={image}
+                            alt={imageAlt}
+                            className="common-header-image"
+                            width={300}
+                            height={300}
+                        />
                     </div>
                 </div>
             </div>

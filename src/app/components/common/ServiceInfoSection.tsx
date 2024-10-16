@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "next/image"
 
-
 /**
  * Custom component renders the StepSection which can be resued
  

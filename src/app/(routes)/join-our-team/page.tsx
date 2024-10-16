@@ -26,19 +26,19 @@ export default function JoinOurTeam() {
     }
     const steps = [
         {
-            icon: '/images/join-our-team/icons/availability.svg',
+            icon: "/images/join-our-team/icons/availability.svg",
             title: "Set your availability",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: '/images/join-our-team/icons/verification.svg',
+            icon: "/images/join-our-team/icons/verification.svg",
             title: "Background check",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: '/images/join-our-team/icons/search-job.svg',
+            icon: "/images/join-our-team/icons/search-job.svg",
             title: "Find your first job",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
@@ -57,7 +57,7 @@ export default function JoinOurTeam() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image={'/images/join-our-team/join-our-team.png'}
+                image={"/images/join-our-team/join-our-team.png"}
                 imageAlt="Be your own boss"
             />
             <ServiceStepsSection steps={steps} />

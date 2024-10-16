@@ -2,7 +2,6 @@ import React from "react"
 import ServiceStepSection from "../../components/common/ServiceStepSection"
 import ServiceInfoSection from "../../components/common/ServiceInfoSection"
 
-
 interface Step {
     colSize: string
     icon: string
