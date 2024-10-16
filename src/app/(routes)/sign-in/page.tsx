@@ -12,9 +12,6 @@ import Form from "react-bootstrap/Form"
 import Row from "react-bootstrap/Row"
 import Link from "next/link"
 import Image from "next/image"
-import GoogleSignInIcon from "@/public/images/google-login.svg"
-import FacebookSignInIcon from "@/public/images/facebook-login.svg"
-import AppleSignInIcon from "@/public/images/apple-login.svg"
 import ReCAPTCHAComponent from "../../components/common/ReCAPTCHA"
 import { FaEye, FaEyeSlash } from "react-icons/fa"
 import { useForm } from "react-hook-form"
@@ -227,21 +224,21 @@ export default function SignIn() {
                                     <div className="text-center">
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={GoogleSignInIcon}
+                                            src={'/images/google-login.svg'}
                                             alt="Google-Sign-In"
                                             width={50}
                                             height={50}
                                         />
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={FacebookSignInIcon}
+                                            src={'/images/facebook-login.svg'}
                                             alt="Facebook-Sign-In"
                                             width={50}
                                             height={50}
                                         />
                                         <Image
                                             className="cursor-pointer me-3"
-                                            src={AppleSignInIcon}
+                                            src={'/images/apple-login.svg'}
                                             alt="Apple-Sign-In"
                                             width={50}
                                             height={50}

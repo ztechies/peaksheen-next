@@ -7,7 +7,6 @@ import CustomLayout from "../../components/common/CustomLayout"
 import { FetchHelper } from "@/services/fetch-helper"
 import { getAccessToken } from "@/utils/common"
 import CommonPageHeader from "../../components/common/CommonPageHeader"
-import FaqImage from "@/public/images/faq/faq.png"
 import Accordion from "react-bootstrap/Accordion"
 import Card from "react-bootstrap/Card"
 
@@ -71,7 +70,7 @@ export default function Faq() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image={FaqImage}
+                image={'/images/faq/faq.png'}
                 imageAlt="FAQ"
             />
 

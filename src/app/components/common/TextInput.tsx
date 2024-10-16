@@ -2,8 +2,6 @@
 import { InputFieldProps } from "@/types/components/text-input"
 import Image from "next/image"
 import { forwardRef, useState } from "react"
-import EyeClose from "@/public/images/Eye-close.svg"
-import Eye from "@/public/images/Eye-open.svg"
 import ShowFormError from "../common/ShowFormError"
 
 /**
@@ -53,9 +51,9 @@ const TextInputField = forwardRef<HTMLInputElement, InputFieldProps>(
                             }
                         >
                             {inputType === "password" ? (
-                                <Image src={EyeClose} alt="eye icon" width={20} height={20} />
+                                <Image src={'/images/Eye-close.svg'} alt="eye icon" width={20} height={20} />
                             ) : (
-                                <Image src={Eye} alt="eye close icon" width={20} height={20} />
+                                <Image src={'/images/Eye-open.svg'} alt="eye close icon" width={20} height={20} />
                             )}
                         </button>
                     )}

@@ -1,11 +1,11 @@
 import React from "react"
 import ServiceStepSection from "../../components/common/ServiceStepSection"
 import ServiceInfoSection from "../../components/common/ServiceInfoSection"
-import { StaticImageData } from "next/image"
+
 
 interface Step {
     colSize: string
-    icon: StaticImageData
+    icon: string
     title: string
     description: string
 }

@@ -1,7 +1,4 @@
 import Image from "next/image"
-import PeaskSheenBlueLogo from "@/public/images/logo/peaksheen-logo-blue-.svg"
-import NotificationIcon from "@/public/images/admin-dashboard/notifications.png"
-import ProfileIcon from "@/public/images/profile-icon.png"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import { usePathname } from "next/navigation"
@@ -22,8 +19,9 @@ const Navbars = () => {
                     <Navbar.Brand href="/" className="ms-2">
                         <Image
                             className="company-logo me-md-5 me-lg-5"
-                            src={PeaskSheenBlueLogo}
+                            src={'/images/logo/peaksheen-logo-blue-.svg'}
                             alt={appName}
+                            width={300} height={300} 
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -61,9 +59,10 @@ const Navbars = () => {
                             <Nav.Link href="" className="me-2">
                                 <Image
                                     className=""
-                                    src={NotificationIcon}
+                                    src={'/images/admin-dashboard/notifications.png'}
                                     alt={appName}
                                     width={35}
+                                    height={35} 
                                 />
                                 <span className="badge">19</span>
                             </Nav.Link>
@@ -80,9 +79,10 @@ const Navbars = () => {
                             <div>
                                 <Image
                                     className="cursor-pointer"
-                                    src={ProfileIcon}
+                                    src={'/images/profile-icon.png'}
                                     alt={appName}
                                     width={50}
+                                    height={50}
                                 />
                             </div>
                         </Nav>

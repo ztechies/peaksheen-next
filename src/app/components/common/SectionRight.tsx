@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from "react"
 import Image from "next/image"
-import { StaticImageData } from "next/image"
+
 
 /**
  * Custom component renders the div with image being right side and content on left which can be resued 
@@ -22,12 +22,12 @@ const SectionRight = ({
 }: {
     title: string
     description: string
-    icon: StaticImageData
+    icon: string
     iconAlt: string
     iconWidth: number
     iconHeight: number
     buttonTitle: string
-    image: StaticImageData
+    image: string
     imageAlt: string
     buttonHandleClick: MouseEventHandler<HTMLButtonElement>
 }) => {
@@ -62,7 +62,8 @@ const SectionRight = ({
                 </button>
             </div>
             <div className="col-md-6 descriptive-image">
-                <Image src={image} alt={imageAlt} className="img-fluid rounded" />
+                <Image src={image} alt={imageAlt} className="img-fluid rounded" width={500}
+                        height={500} />
             </div>
         </div>
     )

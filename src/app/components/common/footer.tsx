@@ -1,9 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import PeaskSheenBlueLogo from "@/public/images/logo/peaksheen-logo-blue-.svg"
-import XIcon from "@/public/images/social/x.svg"
-import FacebookIcon from "@/public/images/social/facebook.svg"
-import InstagramIcon from "@/public/images/social/instagram.svg"
 
 const Footer = () => {
     const appName = process.env.NEXT_PUBLIC_APP_NAME ?? "PeakSheen"
@@ -13,7 +9,7 @@ const Footer = () => {
                 <div className="row mt-4">
                     <div className="col-md-3 mb-4 mb-md-0">
                         <div className="footer-logo">
-                            <Image src={PeaskSheenBlueLogo} alt={appName} width={200} height={70} />
+                            <Image src={'/images/logo/peaksheen-logo-blue-.svg'} alt={appName} width={200} height={70} />
                         </div>
                     </div>
                     <div className="col-md-3 mb-4 mb-md-0">
@@ -79,21 +75,21 @@ const Footer = () => {
                         <div className="">
                             <Image
                                 className="cursor-pointer me-3"
-                                src={XIcon}
+                                src={'/images/social/x.svg'}
                                 alt="x"
                                 width={25}
                                 height={25}
                             />
                             <Image
                                 className="cursor-pointer me-3"
-                                src={FacebookIcon}
+                                src={'/images/social/facebook.svg'}
                                 alt="Facebook"
                                 width={25}
                                 height={25}
                             />
                             <Image
                                 className="cursor-pointer me-3"
-                                src={InstagramIcon}
+                                src={'/images/social/instagram.svg'}
                                 alt="Instagram"
                                 width={25}
                                 height={25}

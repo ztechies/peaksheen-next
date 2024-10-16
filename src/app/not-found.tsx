@@ -1,6 +1,5 @@
 import React from "react"
 import { NextPage } from "next"
-import ErrorImage from "@/public/images/404.svg"
 import Link from "next/link"
 
 const NotFoundPage: NextPage = () => {
@@ -8,7 +7,7 @@ const NotFoundPage: NextPage = () => {
         <section className="v-error-section v-section-padding">
             <div className="v-error-content">
                 <div className="v-error-image">
-                    <img src={ErrorImage.src} alt="404 image" />
+                    <img src={'/images/404.svg'} alt="404 image" />
                 </div>
                 <div className="v-text-body">
                     <h1>Page not Found</h1>

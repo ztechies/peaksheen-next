@@ -13,8 +13,6 @@ import React, { useState } from "react"
 import { Spinner } from "react-bootstrap"
 import { useForm } from "react-hook-form"
 import toast from "react-hot-toast"
-import EyeClose from "@/public/images/Eye-close.svg"
-import EyeOpen from "@/public/images/Eye-open.svg"
 
 const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail }) => {
     const router = useRouter()
@@ -113,8 +111,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showPassword
-                                                                        ? EyeClose
-                                                                        : EyeOpen
+                                                                        ? '/images/Eye-close.svg'
+                                                                        : '/images/Eye-close.svg'
                                                                 }
                                                                 width={20}
                                                                 height={20}
@@ -165,8 +163,8 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                             <Image
                                                                 src={
                                                                     showConfirmPassword
-                                                                        ? EyeClose
-                                                                        : EyeOpen
+                                                                        ? '/images/Eye-close.svg'
+                                                                        : '/images/Eye-close.svg'
                                                                 }
                                                                 width={20}
                                                                 height={20}
@@ -176,7 +174,7 @@ const NewPasswordSetup: React.FC<NewPasswordSetupPropType> = ({ usernameOrEmail 
                                                     </div>
                                                 </div>
                                                 {errors.confirmPassword &&
-                                                errors.confirmPassword.message ? (
+                                                    errors.confirmPassword.message ? (
                                                     <span className="text-danger">
                                                         {errors.confirmPassword.message}
                                                     </span>

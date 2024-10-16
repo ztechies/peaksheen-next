@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import { StaticImageData } from "next/image"
+
 
 /**
  * Custom component renders the StepSection which can be resued
@@ -13,7 +13,7 @@ const ServiceInfoSection = ({
     title,
     description,
 }: {
-    icon: StaticImageData
+    icon: string
     title: string
     description: string
 }) => {

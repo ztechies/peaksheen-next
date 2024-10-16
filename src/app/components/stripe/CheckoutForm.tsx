@@ -5,7 +5,6 @@ import { useStripe, useElements, PaymentElement } from "@stripe/react-stripe-js"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Image from "next/image"
-import PrePaymentInfoImage from "@/public/images/booking/pre-payment.png"
 import { useParams } from "next/navigation"
 import toast from "react-hot-toast"
 
@@ -159,7 +158,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({
                                 <Col className="px-0">
                                     <div className="position-relative">
                                         <Image
-                                            src={PrePaymentInfoImage}
+                                            src={'/images/booking/pre-payment.png'}
                                             alt="Image"
                                             className="img-fluid w-100"
                                         />

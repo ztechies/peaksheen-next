@@ -2,8 +2,6 @@
 import React from "react"
 import CustomAdminLayout from "@/app/components/common/CustomAdminLayout"
 import DashboardBreadCrumbs from "@/app/components/common/DashboardBreadcrumb"
-import HomeIcon from "@/public/images/admin-dashboard/home.svg"
-import BookingIcon from "@/public/images/admin-dashboard/booking-icon.svg"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Image from "next/image"
@@ -217,7 +215,7 @@ const Dashboard = () => {
                 <div className="grey-text">
                     <Image
                         className="cursor-pointer me-3"
-                        src={HomeIcon}
+                        src={'/images/admin-dashboard/home.svg'}
                         alt="Home"
                         width={25}
                         height={25}
@@ -276,7 +274,7 @@ const Dashboard = () => {
                 <div className="grey-text">
                     <Image
                         className="cursor-pointer me-3"
-                        src={BookingIcon}
+                        src={'/images/admin-dashboard/booking-icon.sv'}
                         alt="Booking"
                         width={25}
                         height={25}

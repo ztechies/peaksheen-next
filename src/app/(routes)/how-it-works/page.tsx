@@ -8,19 +8,9 @@ import { FetchHelper } from "@/services/fetch-helper"
 import { getAccessToken } from "@/utils/common"
 import CommonPageHeader from "../../components/common/CommonPageHeader"
 import ServiceStepsSection from "../../components/home/service-steps"
-import ChooseFrequencyIcon from "@/public/images/home/icons/cleaning-person.svg"
-import SelectDurationIcon from "@/public/images/home/icons/clock.svg"
-import CleaningTimeIcon from "@/public/images/home/icons/calendar.svg"
-import ClearnerAnimationImage from "@/public/images/how-it-works/cleaner-animation.png"
 import ServiceHighlights from "../../components/common/ServiceHighlights"
 import SectionRight from "../../components/common/SectionRight"
 import SectionLeft from "../../components/common/SectionLeft"
-import ReportsIcon from "@/public/images/how-it-works/icons/reports.svg"
-import HourGlassIcon from "@/public/images/how-it-works/icons/hour-glass.svg"
-import StopWatchIcon from "@/public/images/how-it-works/icons/stopwatch.svg"
-import PersonCleaningImage from "@/public/images/how-it-works/person-cleaning-railing.png"
-import CleaningTimeImage from "@/public/images/how-it-works/cleaning-time.png"
-import CleaningHandImage from "@/public/images/how-it-works/cleaning-hand.png"
 import { useRouter } from "next/navigation"
 
 export default function HowItWorks() {
@@ -38,21 +28,22 @@ export default function HowItWorks() {
             logout()
         }
     }
+
     const steps = [
         {
-            icon: ChooseFrequencyIcon,
+            icon: "/images/home/icons/cleaning-person.svg", // Updated path
             title: "Choose Frequency",
             description: "Ad-hoc, Weekly,\nFortnightly",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: SelectDurationIcon,
+            icon: "/images/home/icons/clock.svg", // Updated path
             title: "Select Duration",
             description: "Length of the\ncleaning session",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: CleaningTimeIcon,
+            icon: "/images/home/icons/calendar.svg", // Updated path
             title: "Cleaning Time",
             description: "At your chosen\ntime & place",
             colSize: "col-md-4 col-lg-4 col-sm-12",
@@ -76,7 +67,7 @@ export default function HowItWorks() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image={ClearnerAnimationImage}
+                image="/images/how-it-works/cleaner-animation.png" // Updated path
                 imageAlt="How it works"
             />
             <ServiceStepsSection steps={steps} />
@@ -85,12 +76,12 @@ export default function HowItWorks() {
                     title="Set Frequency"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon={ReportsIcon}
+                    icon="/images/how-it-works/icons/reports.svg" // Updated path
                     iconAlt="Reports Icon"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Create a job"
-                    image={PersonCleaningImage}
+                    image="/images/how-it-works/person-cleaning-railing.png" // Updated path
                     imageAlt="Cleaning Service"
                     buttonHandleClick={handleClick}
                 />
@@ -99,12 +90,12 @@ export default function HowItWorks() {
                     title="Select Duration"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon={HourGlassIcon}
+                    icon="/images/how-it-works/icons/hour-glass.svg" // Updated path
                     iconAlt="Timely cleaning"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Reliable Cleaning"
-                    image={CleaningTimeImage}
+                    image="/images/how-it-works/cleaning-time.png" // Updated path
                     imageAlt="Reliable Cleaning"
                     buttonHandleClick={handleClick}
                 />
@@ -112,12 +103,12 @@ export default function HowItWorks() {
                     title="Cleaning time"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt"
-                    icon={StopWatchIcon}
+                    icon="/images/how-it-works/icons/stopwatch.svg" // Updated path
                     iconAlt="Cleaning time"
                     iconWidth={100}
                     iconHeight={100}
                     buttonTitle="Create a job"
-                    image={CleaningHandImage}
+                    image="/images/how-it-works/cleaning-hand.png" // Updated path
                     imageAlt="Cleaning on time"
                     buttonHandleClick={handleClick}
                 />

@@ -8,11 +8,7 @@ import { FetchHelper } from "@/services/fetch-helper"
 import { getAccessToken } from "@/utils/common"
 import CommonPageHeader from "../../components/common/CommonPageHeader"
 import ServiceStepsSection from "../../components/home/service-steps"
-import availbilityIcon from "@/public/images/join-our-team/icons/availability.svg"
-import verificationIcon from "@/public/images/join-our-team/icons/verification.svg"
-import searchJobIcon from "@/public/images/join-our-team/icons/search-job.svg"
 import SetAvailbilitySection from "../../components/join-our-team/set-availbility-section"
-import JoinOurTeamImage from "@/public/images/join-our-team/join-our-team.png"
 
 export default function JoinOurTeam() {
     const [user, setUser] = useState<User>()
@@ -30,19 +26,19 @@ export default function JoinOurTeam() {
     }
     const steps = [
         {
-            icon: availbilityIcon,
+            icon: '/images/join-our-team/icons/availability.svg',
             title: "Set your availability",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: verificationIcon,
+            icon: '/images/join-our-team/icons/verification.svg',
             title: "Background check",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
         },
         {
-            icon: searchJobIcon,
+            icon: '/images/join-our-team/icons/search-job.svg',
             title: "Find your first job",
             description: "Lorem ipsum\ndolor sit amet.",
             colSize: "col-md-4 col-lg-4 col-sm-12",
@@ -61,7 +57,7 @@ export default function JoinOurTeam() {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                             Sed do eiusmod tempor incididunt."
-                image={JoinOurTeamImage}
+                image={'/images/join-our-team/join-our-team.png'}
                 imageAlt="Be your own boss"
             />
             <ServiceStepsSection steps={steps} />
